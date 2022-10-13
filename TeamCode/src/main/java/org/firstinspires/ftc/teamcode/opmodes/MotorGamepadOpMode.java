@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.mechanisms.ProgrammingBoard4;
 
 @TeleOp
-public class MotorGameOpMode2 extends OpMode {
+public class MotorGameOpMode extends OpMode {
     ProgrammingBoard4 board = new ProgrammingBoard4();
     @Override
     public void init(){
