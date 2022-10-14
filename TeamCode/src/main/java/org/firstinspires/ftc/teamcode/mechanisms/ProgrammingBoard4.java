@@ -6,7 +6,8 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 
 public class ProgrammingBoard4 {
     private DigitalChannel touchSensor;
-    private DcMotor motor;
+    private DcMotor motor_right;
+    private DcMotor motor_left;
 
     private double ticketsPerRotation;
 

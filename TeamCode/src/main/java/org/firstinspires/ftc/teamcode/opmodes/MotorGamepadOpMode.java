@@ -15,12 +15,12 @@ public class MotorGamepadOpMode extends OpMode {
 
     @Override
     public void loop(){
-        double motorSpeed = gamepad.left_stick_y;
+        double motorSpeed = gamepad1.left_stick_y;
         board.setMotorSpeed(motorSpeed);
         telemetry.addData("Motor speed", motorSpeed);
         telemetry.addData("Motor rotations", board.getMotorRotations());
 
-        double motorSpeed = gamepad.right_stick_y;
+        double motorSpeed = gamepad1.right_stick_y;
         board.setMotorSpeed(motorSpeed)
         telemetry.addData("Motor speed", motorSpeed);
         telemetry.addData("Motor rotations",board.getMotorRotations());
