@@ -18,7 +18,4 @@ public class ProgrammingBoard4 {
     public void setMotorSpeed (double speed) {
         motor.setPower(speed);
     }
-
-
-
 }
