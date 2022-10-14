@@ -19,5 +19,10 @@ public class MotorGamepadOpMode extends OpMode {
         board.setMotorSpeed(motorSpeed);
         telemetry.addData("Motor speed", motorSpeed);
         telemetry.addData("Motor rotations", board.getMotorRotations());
+
+        double motorSpeed = gamepad.right_stick_y;
+        board.setMotorSpeed(motorSpeed)
+        telemetry.addData("Motor speed", motorSpeed);
+        telemetry.addData("Motor rotations",board.getMotorRotations());
     }
 }
