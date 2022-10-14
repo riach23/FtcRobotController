@@ -11,11 +11,11 @@ public class ProgrammingBoard4 {
 
     private double ticketsPerRotation;
 
-    public void setMotorSpeed(double speed) {
+    public void setLeftMotorSpeed(double speed) {
         motor_left.setPower(speed);
     }
 
-    public void setMotorSpeed (double speed) {
+    public void setRightMotorSpeed(double speed) {
         motor_right.setPower(speed);
     }
 }
