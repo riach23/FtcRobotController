@@ -11,8 +11,14 @@ public class ProgrammingBoard4 {
 
     private double ticketsPerRotation;
 
-    public void init(HardwareMap hwMap) {
-        touchSensor = hwMap.get(DigitalChannel.class, "touch_sensor")
+    public void setMotorSpeed(double speed) {
+        motor.setPower(speed);
     }
-    
+
+    public void setMotorSpeed (double speed) {
+        motor.setPower(speed);
+    }
+
+
+
 }
