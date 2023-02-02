@@ -29,4 +29,12 @@ public class ProgrammingBoard4 {
     public void setSecondFrontMotorSpeed(double speed) {
         motor_front_two.setPower(speed);
     }
+
+    public void setSecondFrontMotorSpeed(double speed) {
+        motor_front_two.setPower(speed);
+    }
+
+    public void setetServoSpeed(double speed) {
+        servo.setPower(speed);
+    }
 }
