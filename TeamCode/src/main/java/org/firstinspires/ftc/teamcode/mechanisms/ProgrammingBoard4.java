@@ -8,6 +8,9 @@ public class ProgrammingBoard4 {
     private DigitalChannel touchSensor;
     private DcMotor motor_right;
     private DcMotor motor_left;
+    private DcMotor motor_front_one;
+    private DcMotor motor_front_two;
+    private servo servo;
 
     private double ticketsPerRotation;
 
@@ -17,5 +20,13 @@ public class ProgrammingBoard4 {
 
     public void setRightMotorSpeed(double speed) {
         motor_right.setPower(speed);
+    }
+
+    public void setFirstFrontMotorSpeed(double speed) {
+        motor_front_one.setPower(speed);
+    }
+
+    public void setSecondFrontMotorSpeed(double speed) {
+        motor_front_two.setPower(speed);
     }
 }
