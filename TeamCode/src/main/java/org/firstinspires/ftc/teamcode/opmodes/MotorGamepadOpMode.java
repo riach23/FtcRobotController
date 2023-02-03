@@ -8,6 +8,7 @@ import org.firstinspires.ftc.teamcode.mechanisms.ProgrammingBoard4;
 @TeleOp
 public class MotorGamepadOpMode extends OpMode {
     ProgrammingBoard4 board = new ProgrammingBoard4();
+    ProgrammingBoard5 board = new ProgrammingBoard5();
     @Override
     public void init(){
         board.init(hardwareMap);
