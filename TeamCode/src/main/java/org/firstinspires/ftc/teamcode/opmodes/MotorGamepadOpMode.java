@@ -36,7 +36,7 @@ public class MotorGamepadOpMode extends OpMode {
         telemetry.addData("Motor speed", motorSpeed4);
         // telemetry.addData("Motor rotations",board.getMotorRotations());  
 
-        double servoSpeed = gamepad1.left_stick_y;
+        double servoSpeed = gamepad1.left_bumper;
         board.setServoSpeed(servoSpeed)
         telemetry.addData("Servo speed", servoSpeed);
         // telemetry.addData("Motor rotations",board.getMotorRotations());              
